@@ -26,18 +26,6 @@ This project shows how to use Spring Data JPA to interact with a database using 
 - **MySQL / H2 / other RDBMS**
 - **Maven**
 
----
-src
-├── main
-│ ├── java
-│ │ └── com/yourpackage
-│ │ ├── controller
-│ │ ├── service
-│ │ ├── repository
-│ │ └── entity
-│ └── resources
-│ └── application.properties
-└── test
 # MySQL example
 spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
 
@@ -46,8 +34,11 @@ spring.datasource.username=root
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
+
 spring.jpa.properties.hibernate.format_sql=true
+
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 
 🧪 Testing
