@@ -40,7 +40,9 @@ src
 └── test
 # MySQL example
 spring.datasource.url=jdbc:mysql://localhost:3306/your_db_name
+
 spring.datasource.username=root
+
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
